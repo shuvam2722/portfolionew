@@ -49,7 +49,7 @@ function Frontpage() {
               <a href="#contact_page">
                 <button className="btn primary-btn">Hire Me</button>
               </a>
-              <a href="./shuvam.pdf" download>
+              <a href="https://drive.google.com/file/d/1skvo9I-PmBxVMqIzVBBNcv3hgsDA0pcF/view?usp=share_link">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
