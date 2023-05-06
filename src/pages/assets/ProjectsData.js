@@ -15,7 +15,7 @@ const proj_data = [
     proj_creation_date: "Nov 2022",
     project_image: dental_img,
     proj_code_like: "",
-    proj_live_link: "",
+    proj_live_link: "https://learnersexamportal.vercel.app/",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const proj_data = [
     proj_creation_date: "Oct 2022",
     project_image: resume_img,
     proj_code_like: "",
-    proj_live_link: "",
+    proj_live_link: "https://learnersresult.000webhostapp.com/index.php",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const proj_data = [
     proj_creation_date: "Nov 2022",
     project_image: login_img,
     proj_code_like: "",
-    proj_live_link: "",
+    proj_live_link: "https://learnersexamportal.000webhostapp.com/",
   },
   {
     id: 4,
