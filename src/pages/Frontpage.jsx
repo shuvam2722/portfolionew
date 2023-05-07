@@ -50,7 +50,7 @@ function Frontpage() {
                 <button className="btn primary-btn">Hire Me</button>
               </a>
               <a href="./shuvam.pdf" download>
-                <button className="btn highlighted-btn">Get Resume</button>
+                <button className="btn highlighted-btn">Download CV</button>
               </a>
             </div>
           </div>

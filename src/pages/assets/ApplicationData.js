@@ -23,7 +23,7 @@ import firebase from "../../Image/logo_folder/firebase.png";
 const my_skills_data = [
   {
     id: 1,
-    skill_name: "React JS",
+    skill_name: "ReactJS",
     img_link: react_logo,
   },
   {
@@ -44,7 +44,7 @@ const my_skills_data = [
   },
   {
     id: 5,
-    skill_name: "Node JS",
+    skill_name: "NodeJS",
     img_link: node_logo,
   },
   {
@@ -69,7 +69,7 @@ const my_skills_data = [
   },
   {
     id: 11,
-    skill_name: "Material UI",
+    skill_name: "MaterialUI",
     img_link: material_logo,
   },
   {

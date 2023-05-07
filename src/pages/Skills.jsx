@@ -5,7 +5,7 @@ function Skills() {
   const my_skill_description = [
     {
       index: 1,
-      info: "⚡ Building responsive website front end using ReactJS",
+      info: "⚡ Building responsive front end designs using ReactJS",
     },
     {
       index: 2,
