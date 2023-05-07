@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+
 import { Routes, Route } from "react-router-dom";
 import Frontpage from "./pages/Frontpage";
 import About from "./pages/About";
@@ -8,6 +8,9 @@ import ProjectExp from "./pages/Project_exp";
 import Skills from "./pages/Skills";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
+import Work from "./pages/Works";
+
+
 
 const App = () => {
   // useEffect(() => {
@@ -29,6 +32,7 @@ const App = () => {
               <About />
               <EducationCert/>
               <Skills/>
+              <Work/>
               <ProjectExp />
               <Contact />
               <Footer />
