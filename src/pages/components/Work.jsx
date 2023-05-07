@@ -28,7 +28,7 @@ function Works() {
       title: "Software Engineer",
       description:
         "Hiring Consisted of 2 major round,First round consisted of 5 quite hard level coding questions and followed by an hour based Technical and HR Interview on Frontend Technologies like ReactJS.Got Offer Letter in the month of August.Click below to get the coding questions.",
-      image: "https://o.remove.bg/downloads/270e122f-8ba9-4d84-8b40-b5379bd5438b/ground-removebg-preview.png",
+      image: "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_bfcc7d257cff47aae47fb42b7b48fb95/groundtruth-ads-manager.png",
       github: "https://github.com",
       demo: "https://demo.com",
       company: "GroundTruth",
