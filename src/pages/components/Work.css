@@ -14,13 +14,16 @@
 
 .work-card {
   width: 100%;
-  max-width: 320px;
+  max-width: 300px;
   background-color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  
   border-radius: 8px;
   overflow: hidden;
   margin: 16px;
   position: relative;
+  transition: ease-in-out 0.7s;
+  text-decoration: none;
+  cursor: pointer;
   
 }
 .work-card img {
@@ -62,6 +65,7 @@
   gap: 10px;
 }
 
+
 .work-card:hover .button-wrapper {
   opacity: 1;
 }
@@ -82,6 +86,22 @@
 .button:hover {
   background-color: #3e8e41;
 }
+.button1 {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}
 
 .work-card:hover .company-name {
   opacity: 1;
@@ -90,21 +110,23 @@
 .company-name {
   position:absolute;
   margin-left: 5px;
-  margin-bottom: ;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  font-size: 14px;
+  
+  color: #ffffff;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   padding: 8px 16px;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.7s ease;
+  
+  font-family: 'Dancing Script', cursive; /* replace with your chosen font */
 }
+
 .work-card:hover img {
-  filter: blur(2px);
+  filter: blur(8px);
 }
 
 /* CSS animation */
@@ -116,5 +138,256 @@
   to {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+@media (max-width: 767px) {
+  .works-wrapper {
+    justify-content: center;
+  }
+  .work-card {
+    margin: 4px;
+    height: 350px;
+    width: 180px;
+    flex-direction: column;
+  }
+  .work-card img {
+    height: 110px;
+  }
+  
+  .work-info {
+    padding: 10px;
+    height: 280px;
+  }
+  .work-info h3 {
+    margin: 10px 0;
+    font-size: 10px;
+    text-align: center;
+    
+  }
+  .button{
+    background-color: #000000;
+    color: white;
+    padding: 5px 12px;
+    font-size: 8px;
+    text-decoration:none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button1{
+    background-color: #000000;
+    color: white;
+    padding: 7px 22px;
+    font-size: 8px;
+    text-decoration:none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button-wrapper {
+    left: 50%;
+    font-size: 5px;
+    margin-left: -2px;
+    align-items:center;
+    transform: translateX(-50%);
+    gap: 5px;
+  }
+  .company-name {
+    font-size: 10px;
+  }
+  .work-info p {
+    margin: 0;
+    font-size: 10px;
+  } 
+}
+
+
+/* For screens larger than 768px (e.g. tablets and desktops) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .work-card {
+    margin: 16px;
+    height: 350px;
+    width: 180px;
+  }
+  .work-card img {
+    height: 180px;
+  }
+  .company-name {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .works-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .work-card {
+    margin: 50px;
+    height: 490px;
+    width: 300px;
+    flex-direction: column;
+  }
+  .work-card img {
+    height: 200px;
+  }
+  .work-info {
+    padding: 10px;
+    height: 290px;
+  }
+  .work-info h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  .button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #000000;
+    color: white;
+    padding: 10px 30px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button-wrapper {
+    left: 50%;
+    font-size: 10px;
+    margin-left: -2px;
+    align-items: center;
+    transform: translateX(-50%);
+    gap: 10px;
+  }
+  .company-name {
+    font-size: 14px;
+  }
+  .work-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .works-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .work-card {
+    margin: 10px;
+    height: 580px;
+    width: 240px;
+    flex-direction: column;
+  }
+  .work-card img {
+    height: 110px;
+  }
+  .work-info {
+    padding: 10px;
+    height: 480px;
+  }
+  .work-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  .button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #000000;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button-wrapper {
+    left: 50%;
+    font-size: 12px;
+    margin-left: -2px;
+    align-items: center;
+    transform: translateX(-50%);
+    gap: 15px;
+  }
+  .company-name {
+    font-size: 16px;
+  }
+  .work-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .works-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .work-card {
+    margin: 5px;
+    height: 350px;
+    width: 170px;
+    flex-direction: column;
+  }
+  .work-card img {
+    height: 110px;
+  }
+  .work-info {
+    padding: 2px;
+    height: 300px;
+  }
+  .work-info h3 {
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  .button {
+    background-color: #000000;
+    color: white;
+    padding: 5px 12px;
+    font-size: 8px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #000000;
+    color: white;
+    padding: 7px 22px;
+    font-size: 8px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .button-wrapper {
+    left: 50%;
+    top: 1%;
+    font-size: 6px;
+    margin-left: -2px;
+    align-items: center;
+    transform: translateX(-50%);
+    gap: 3px;
+  }
+  .company-name {
+    font-size: 10px;
+  }
+  .work-info p {
+    margin: 0;
+    font-size: 10px;
   }
 }
