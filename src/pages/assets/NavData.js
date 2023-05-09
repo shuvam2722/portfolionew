@@ -26,18 +26,24 @@ const my_navbar_data = [
   },
   {
     index: 4,
-    nav_link: "/#my-background",
+    nav_link: "Qualification/#my-qualification",
     navbar_name: "Qualification",
     nav__icon: AiOutlineSafetyCertificate,
   },
   {
     index: 5,
+    nav_link: "Achievements/#my-achievements",
+    navbar_name: "Achievements",
+    nav__icon: AiOutlineSafetyCertificate,
+  },
+  {
+    index: 6,
     nav_link: "/#my-work",
     navbar_name: "Projects",
     nav__icon: RxDashboard,
   },
   {
-    index: 6,
+    index: 7,
     nav_link: `/#contact_page`,
     navbar_name: "Contact",
     nav__icon: BiConversation,
