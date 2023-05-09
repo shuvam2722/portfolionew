@@ -9,7 +9,7 @@ import Skills from "./pages/Skills";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
 import Work from "./pages/Works";
-import Achievements from "./pages/Achievements"
+import Activities from "./pages/Activities"
 import Qualification from "./pages/Qualification"
 
 
@@ -43,10 +43,10 @@ const App = () => {
         />
         <Route
           exact
-          path="/Achievements"
+          path="/Activities"
           element={
             <>
-              <Achievements /> <Footer/>
+              <Activities /> <Footer/>
             </>
           }
         />
