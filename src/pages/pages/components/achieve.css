@@ -1,0 +1,93 @@
+/* Default styles for all devices */
+.achievements_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.achievement_card {
+  width: calc((100% - 120px) / 4); /* calculate width for four cards with 30px gap */
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+}
+
+.achievement_card img {
+  width: 100%;
+  height: auto;
+}
+
+.achievement_card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievement_card .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+  height: 80px;
+}
+
+.achievement_card .description {
+  font-size: 16px;
+  margin: 0 20px 20px;
+  text-align: justify;
+  height: 120px;
+  overflow: hidden;
+}
+
+.achievement_card .date {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 20px 10px;
+  color: gray;
+}
+
+.achievement_card .link {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* add this line to center the button vertically */
+  margin-top: auto; /* add this line to push the button to the bottom of the card */
+  margin-bottom: 20px;
+}
+
+.achievement_card .link a {
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.achievements_header {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.achievement_card .link a:hover {
+  background-color: #023e8a;
+}
+
+/* Media queries for different screen sizes */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .achievement_card {
+    width: calc((100% - 60px) / 2); /* calculate width for two cards with 30px gap */
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .achievement_card {
+    width: calc(100% - 40px); /* full width with 20px margin */
+    margin-bottom: 20px;
+  }
+}
