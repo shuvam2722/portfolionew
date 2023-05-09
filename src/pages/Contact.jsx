@@ -150,6 +150,7 @@ const Contact = (props) => {
             src={contact_me_img}
             className="form_container_right"
             alt="contact images"
+            
           ></img>
         </div>
       </div>
