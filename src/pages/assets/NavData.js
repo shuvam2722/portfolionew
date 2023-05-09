@@ -33,7 +33,7 @@ const my_navbar_data = [
   {
     index: 5,
     nav_link: "Achievements/#my-achievements",
-    navbar_name: "Achievements",
+    navbar_name: "Activities",
     nav__icon: AiOutlineSafetyCertificate,
   },
   {
