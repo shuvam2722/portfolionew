@@ -37,7 +37,7 @@
   border-radius: 3px;
   text-decoration: none;
   color: #000;
-  transition: ease-in-out 0.7s;
+  transition:ease-in-out 0.1s;
 }
 .cert_data_container:active {
   transform: scale(0.4);
@@ -101,5 +101,5 @@
     border-radius: 3px;
     text-decoration: none;
     color: #000;
-    transition: ease-in-out 0.7s;
+    transition: ease-in-out 0.1s;
   }
