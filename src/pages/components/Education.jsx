@@ -30,6 +30,7 @@ function Education() {
       btn_name: "Visit College Website",
       btn_link: "https://ciem.ac.in",
     },
+    
   ];
   return (
     <>

@@ -14,9 +14,9 @@
 
 .work-card {
   width: 100%;
-  max-width: 300px;
+  max-width: 305px;
   background-color: #fff;
-  
+  height: 542px;
   border-radius: 8px;
   overflow: hidden;
   margin: 16px;
@@ -332,7 +332,7 @@
     font-size: 16px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 360px) and (min-width: 768px){
   .works-wrapper {
     display: flex;
     flex-wrap: wrap;
