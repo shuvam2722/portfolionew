@@ -221,13 +221,17 @@
     margin-bottom: 30px;
   }
   .profile-details-role h1 {
-    height: 100px;
+    height: 10px;
     text-align: center;
+    flex-direction: column;
+    width: 100%;
+    display:inline;
+    
     
   }
   .profile-details-name p {
     font-size: 30px;
-    line-height: 36px;
+    line-height: 50px;
     text-decoration-color: blueviolet;
   }
   .profile-parent {

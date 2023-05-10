@@ -26,7 +26,7 @@ function Frontpage() {
                       cursorColor="#f3f4f6"
                       multiText={[
                         "Frontend Development",
-                        "Commpetitive Programming",
+                        "Competitive Programming",
                         "Python Development",
                       ]}
                       multiTextDelay={1000}
