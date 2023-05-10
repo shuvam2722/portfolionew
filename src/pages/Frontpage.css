@@ -208,7 +208,14 @@
     width: 320px;
     margin: 0 0 0 4px;
   }
+  .profile-details-name p {
+    font-size: 30px;
+    line-height: 32px;
+    text-decoration-color: blueviolet;
+  }
 }
+
+
 @media screen and (max-width: 810px) {
   .profile-container {
     width: 100%;
@@ -216,6 +223,11 @@
     padding: 18px 0 21px 0;
     background-size: cover;
     clip-path: polygon(100% 0, 100% 96%, 54% 100%, 0 94%, 0 0);
+  }
+  .profile-details-role h1 {
+    margin: 0 0 6px 0;
+    text-align: center;
+    height: 110px;
   }
   .profile-picture {
     margin-bottom: 30px;
@@ -226,12 +238,13 @@
     flex-direction: column;
     width: 100%;
     display:inline;
+    height: 80%;
     
     
   }
   .profile-details-name p {
     font-size: 30px;
-    line-height: 50px;
+    line-height: 32px;
     text-decoration-color: blueviolet;
   }
   .profile-parent {
@@ -293,6 +306,17 @@
     z-index: 10;
     position: relative;
   }
+  .profile-details-name p {
+    font-size: 30px;
+    line-height: 40px;
+    text-decoration-color: blueviolet;
+  }
+  .profile-details-role h1 {
+    margin: 0 0 6px 0;
+    text-align: center;
+    height: 95px;
+  }
+
 }
 @media screen and (max-width: 420px) {
   .profile-picture {
