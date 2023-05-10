@@ -1,5 +1,5 @@
 import React from 'react';
-import './achieve.css';
+import './activity.css';
 
 const achievementsData = [
   {
