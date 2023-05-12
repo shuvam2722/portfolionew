@@ -101,6 +101,9 @@
 
 @media screen and (min-width: 1024px) {
   .educ_container_one {
+    width: 10%;
+  }
+  .upper_left img{
     width: 50%;
   }
   .educ_div_section {
@@ -137,7 +140,10 @@
 }
 @media screen and (max-width: 480px) {
   .upper_left img {
-    display: none;
+    
+    max-width: 100%;
+    height: auto;
+    
   }
   .upper_container_section {
     gap: 0px;
@@ -161,3 +167,4 @@
     font-size: 13px;
   }
 }
+

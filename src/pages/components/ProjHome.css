@@ -9,6 +9,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  height: auto;
 }
 .proj_left,
 .proj_right {
@@ -81,7 +82,4 @@
   .proj_containar_section {
     padding: 20px 18px;
   }
-  .proj_right img{
-    height : 350px;
-    }
 }

@@ -4,6 +4,17 @@
   margin: 0px 0 0 0;
   padding: 43px 0 0 0;
 }
+.container_s {
+  /* existing styles */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill_box {
+  /* existing styles */
+  margin: 9px;
+  width: 180px;
+}
 
 .my_skills,
 .section_container_skills_gif,
