@@ -52,6 +52,9 @@ function Frontpage() {
               <a href="./shuvam.pdf" download>
                 <button className="btn highlighted-btn">Download CV</button>
               </a>
+              <a href="https://calendly.com/d/2nc-nnj-24f/shuvamhalder">
+                <button className="btn primary-btn">Book 1:1 Call</button>
+              </a>
             </div>
           </div>
           <div className="profile-picture">
