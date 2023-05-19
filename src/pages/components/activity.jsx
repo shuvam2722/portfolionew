@@ -26,9 +26,16 @@ const achievementsData = [
   {
     title: 'Co Ordinated CIEM Sports Fest',
     description: 'Been a Co Ordinator in CIEM Sports Fest, Celsius 2023.Organized various kinds of sports like Cricket,Football,Badminton,Table Tennis etc.',
-    date: 'July 2021',
+    date: 'March 2023',
     link: 'https://example.com',
     image: 'https://i.ibb.co/xmLQ8p1/IMG-3001.jpg'
+  },
+  {
+    title: 'Won CodeCrash Coding Competetion',
+    description: 'Internal coding competetion of ciem among its students only, consisting of 5 easy to medium level question with many participants participating in it.',
+    date: 'April 2023',
+    link: 'https://example.com',
+    image: 'https://i.ibb.co/YjgMBdJ/Shuvam-Halder.png'
   },
 ];
 
