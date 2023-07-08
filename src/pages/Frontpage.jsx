@@ -35,7 +35,7 @@ function Frontpage() {
                   </span>
                 </h1>
                 <span className="profile-role-tagline">
-                  4th Year IT undergrad from Calcutta Institute of Engineering and Management.
+                  4th Year IT Grad from Calcutta Institute of Engineering and Management.
                   A tech enthusiast,always fascinated by the tech,trying to make a statement
                   among the billions of other coders.
                 </span>

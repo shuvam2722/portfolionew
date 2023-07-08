@@ -14,7 +14,7 @@
 
 .work-card {
   width: 100%;
-  max-width: 310px;
+  max-width: 320px;
   background-color: #fff;
   height: auto;
   border-radius: 8px;
@@ -149,8 +149,8 @@
   }
   .work-card {
     margin: 4px;
-    height: 350px;
-    width: 180px;
+    height: 335px;
+    width: 185px;
     flex-direction: column;
   }
   .work-card img {

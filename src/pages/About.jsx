@@ -18,7 +18,7 @@ function About() {
             been fascinated by Knowledge 🧠 and learning new things. Throughout
             my life, I have spoken, read and written in English fluently.
             Currently, I'm exploring various frameworks of various tech stacks.
-            ReactJS,NodeJS,PhP,MySql,Sanity are some of the techs that i've learnt
+            ReactJS,NodeJS,PhP,MySql are some of the tech stacks that i've learnt
             by the time.
           </p>
           <div className="personal_info">

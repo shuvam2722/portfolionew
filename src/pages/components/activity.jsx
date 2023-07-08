@@ -3,6 +3,12 @@ import './activity.css';
 
 const achievementsData = [
   {
+    title: 'Recently Visited Mandarmani',
+    description: 'We booked our stay in a famous 4star resort Bombay Beach Resort.The overall stay was fantastic,the rooms were totally clean and the behaviour of the staffs were very friendly.',
+    date: 'Want to relive those two days evrytime,beside the seas :)',
+    link: 'https://bombaybeachresort.com/',
+    image: 'https://bombaybeachresort.com/images/12.jpeg'
+  },{
     title: 'Despedida 2023',
     description: 'Recently got the convocation ceremony and gifts from my beloved IT juniors of my college.The day was a blast with a mixed emotions going on in our heads as we are leaving now.',
     date: 'Juniors,teachers,College Premises will always be unforgettable :(',
