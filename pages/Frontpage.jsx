@@ -35,7 +35,7 @@ function Frontpage() {
                   </span>
                 </h1>
                 <span className="profile-role-tagline">
-                  4th Year IT undergrad from Calcutta Institute of Engineering and Management.
+                  4th Year IT Grad from Calcutta Institute of Engineering and Management.
                   A tech enthusiast,always fascinated by the tech,trying to make a statement
                   among the billions of other coders.
                 </span>
@@ -51,6 +51,9 @@ function Frontpage() {
               </a>
               <a href="./shuvam.pdf" download>
                 <button className="btn highlighted-btn">Download CV</button>
+              </a>
+              <a href="https://calendly.com/d/2nc-nnj-24f/shuvamhalder">
+                <button className="btn primary-btn">Book 1:1 Call</button>
               </a>
             </div>
           </div>

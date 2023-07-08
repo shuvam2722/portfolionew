@@ -98,11 +98,20 @@ h4 span {
     flex-direction: column;
     margin: 1px 0px 15px 0px;
   }
+  .abc {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 580px) {
   .my_img {
     width: 90%;
     margin: 35px 0 5px 0 !important;
+  }
+  .abc {
+    width: 100%;
+  }
+  .xyz{
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -117,7 +126,13 @@ h4 span {
     width: 100%;
   }
   .my_info {
-    width: 90%;
+    width: 100%;
+  }
+  .abc {
+    width: 80%;
+  }
+  .xyz{
+    width: 80%;
   }
   .my_info h2 {
     margin: 10px;

@@ -12,7 +12,7 @@ const my_certificates_data = [
     cert_provider_name: "Udemy Business",
     cert_provider_img_link: tcs_img,
     cert_time_stamp: "Dec 2022",
-    back_grd_color: "##e0e0e",
+    back_grd_color: "#aaf5ff",
     cert_pdf_link:
       "https://drive.google.com/file/d/1U9Hfd_e6slJ9PF9Uu3hT29oZ92CFy1GF/view?usp=share_link",
   },
@@ -28,7 +28,7 @@ const my_certificates_data = [
   },
   {
     index: 3,
-    cert_title_name: "4 Star Python",
+    cert_title_name: "Hackerrank",
     cert_provider_name: "Hackerrank",
     cert_provider_img_link: unstop_img,
     cert_time_stamp: "Feb 2023",
@@ -47,7 +47,7 @@ const my_certificates_data = [
   },
   {
     index: 5,
-    cert_title_name: "Data Structures and Algo",
+    cert_title_name: "Data Structures",
     cert_provider_name: "Vinoth",
     cert_provider_img_link: data,
     cert_time_stamp: "Mar 2023",

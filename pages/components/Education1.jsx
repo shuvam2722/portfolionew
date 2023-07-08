@@ -11,7 +11,7 @@ function Education() {
     {
       index: 1,
       education_logo_link: "https://i.ibb.co/q1c04rb/122172-removebg-preview.png",
-      education_image_link: "https://scontent.frdp4-2.fna.fbcdn.net/v/t39.30808-6/274080197_5589588144401142_3977219750072423487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=OX5-_lDDpSsAX8l6hsS&_nc_ht=scontent.frdp4-2.fna&oh=00_AfDc5CMUvX8M4zN-1zJujcwcy8C-4ixrjL0poIS8valugQ&oe=645FB5E4",
+      education_image_link: "https://i.ibb.co/tCqsYMd/jlv.jpg",
       college_name: "Rampurhat Jitendralal Vidyabhaban",
       college_degree_name: "Secondary-Higher Secondary(Till Class 12)",
       education_spam: "Pure Science(2011-2019)",

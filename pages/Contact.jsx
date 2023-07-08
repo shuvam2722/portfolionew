@@ -89,7 +89,7 @@ const Contact = (props) => {
                 <h3>
                   Get in <span> Touch </span>
                 </h3>
-                <p>I'm open for any suggestions</p>
+                <p>Open to any suggestions</p>
                 <div className="name_val">
                   <label htmlFor="name">Name</label>
                   <input

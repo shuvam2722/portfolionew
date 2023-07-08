@@ -6,7 +6,7 @@ const achievementsData = [
     title: 'Despedida 2023',
     description: 'Recently got the convocation ceremony and gifts from my beloved IT juniors of my college.The day was a blast with a mixed emotions going on in our heads as we are leaving now.',
     date: 'Juniors,teachers,College Premises will always be unforgettable :(',
-    link: 'https://example.com',
+    link: 'https://i.ibb.co/5hC4hjP/IMG-20230510-003542.jpg',
     image: 'https://i.ibb.co/5hC4hjP/IMG-20230510-003542.jpg'
   },
   {
@@ -20,15 +20,22 @@ const achievementsData = [
     title: 'Inter College Treasure Hunt Champions',
     description: 'Participated and won treasure hunt competetion in CIEM Celsius 2023,Found and solved all the hints and clues and finished all the tasks within 20mins. :)',
     date: 'If you know.. you know :)',
-    link: 'https://example.com',
+    link: 'https://i.ibb.co/80kCnFY/IMG-3617.jpg',
     image: 'https://i.ibb.co/80kCnFY/IMG-3617.jpg'
   },
   {
     title: 'Co Ordinated CIEM Sports Fest',
     description: 'Been a Co Ordinator in CIEM Sports Fest, Celsius 2023.Organized various kinds of sports like Cricket,Football,Badminton,Table Tennis etc.',
-    date: 'July 2021',
-    link: 'https://example.com',
+    date: 'March 2023',
+    link: 'https://i.ibb.co/xmLQ8p1/IMG-3001.jpg',
     image: 'https://i.ibb.co/xmLQ8p1/IMG-3001.jpg'
+  },
+  {
+    title: 'Won CodeCrash Coding Competetion',
+    description: 'Internal coding competetion of ciem among its students only, consisting of 5 easy to medium level question with many participants participating in it.',
+    date: 'April 2023',
+    link: 'https://i.ibb.co/YjgMBdJ/Shuvam-Halder.png',
+    image: 'https://i.ibb.co/YjgMBdJ/Shuvam-Halder.png'
   },
 ];
 

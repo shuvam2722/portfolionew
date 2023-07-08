@@ -1,6 +1,7 @@
 import React from "react";
 import "./Certificates.css";
 import my_certificates_data from "../assets/Certificates_data";
+
 function Certificates() {
   return (
     <>
@@ -30,6 +31,9 @@ function Certificates() {
                     <h3>{data.cert_title_name}</h3>
                     <h4>{data.cert_time_stamp}</h4>
                     <h5>{data.cert_provider_name}</h5>
+                    <div>
+                      <button className="view_certificate_button">View Certificate</button>
+                    </div>
                   </div>
                 </a>
               );
@@ -42,11 +46,3 @@ function Certificates() {
 }
 
 export default Certificates;
-
-// proj rest api
-// {
-//     index: 1,
-//     cert_name: "",
-//     cert_code_link: "",
-//     cert_live_link: "",
-//   },

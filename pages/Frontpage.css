@@ -10,7 +10,7 @@
 .btn {
   border-radius: 50px;
   padding: 14px 0;
-  width: 160px;
+  width: 140px;
   cursor: pointer;
   transition: 0.2s;
   outline: none;
@@ -24,6 +24,7 @@
 .primary-btn {
   border: 2px solid linen;
   font-size: 12px;
+  margin-left: 25px;
   background-color: var(--dark-fans);
 }
 .profile-details-name p {
@@ -43,12 +44,17 @@
 .highlighted-btn {
   color: var(--white);
   font-size: 12px;
+  border: 2px solid #ffffff;
   background-color: #3b80ff;
 }
 
+
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
-    z-index: -900;
+    z-index: -800;
+  }
+  .primary-btn{
+    margin-left: 2px;
   }
 }
 
@@ -138,7 +144,7 @@
 .profile-picture-background {
   height: 90%;
   width: 90%;
-  background-image: url(../Image/Profile_imgs/profile_img.jpg);
+  background-image: url("https://i.ibb.co/ftYfpxm/Picsart-23-06-23-12-05-43-387-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
