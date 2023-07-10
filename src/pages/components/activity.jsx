@@ -3,6 +3,12 @@ import './activity.css';
 
 const achievementsData = [
   {
+    title: 'TCS Workplace Visit',
+    description: 'Tata Consultancy Services offered me to visit the workplace before joining at their Gitanjali Park campus.They also provided us delicious foods gifts,campus visit.',
+    date: 'A day full of activities at TCS!',
+    link: 'https://www.linkedin.com/posts/shuvam-halder-8084b3157_tcsworkplacevisit-tcsxplore-activity-7041429086161809409-IKDT?utm_source=share&utm_medium=member_desktop',
+    image: 'https://i.ibb.co/tbD8vbK/IMG-20230314-134309.jpg'
+  },{
     title: 'KFC-Esplanade',
     description: 'On an odd weekend i decided to hang out nearby a kfc store which eventually attracted me,order the 699?- basket which was more than enough for two and very much delicious',
     date: 'Good for crispy chicken loversss !',
