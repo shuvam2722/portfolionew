@@ -3,6 +3,12 @@ import './activity.css';
 
 const achievementsData = [
   {
+    title: 'KFC-Esplanade',
+    description: 'On an odd weekend i decided to hang out nearby a kfc store which eventually attracted me,order the 699?- basket which was more than enough for two and very much delicious',
+    date: 'Good for crispy chicken loversss !',
+    link: 'https://i.ibb.co/b5dSVY4/IMG-20230607-211442.jpg',
+    image: 'https://i.ibb.co/b5dSVY4/IMG-20230607-211442.jpg'
+  },{
     title: 'Recently Visited Mandarmani',
     description: 'We booked our stay in a famous 4star resort Bombay Beach Resort.The overall stay was fantastic,the rooms were totally clean and the behaviour of the staffs were very friendly.',
     date: 'Want to relive those two days evrytime,beside the seas :)',
